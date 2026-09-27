@@ -16,4 +16,19 @@ Archibald. Livre 2, Page 18, Bulle 7, Mot 10.<br>
 
 
 </body>
+
+  <input type="password" id="password" placeholder="Enter its weight...">
+<button onclick="checkPassword()">Submit</button>
+
+<script>
+function checkPassword() {
+    let password = document.getElementById("password").value;
+
+    if (btoa(btoa(password) === "TWpFdU5RPT0= {
+        alert("Correct!");
+    } else {
+        alert("Wrong password!");
+    }
+}
+</script>
 </html>
